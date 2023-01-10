@@ -14,25 +14,24 @@ h1{
 }
 p{
     position: absolute;
-width: 494px;
-height: 78px;
-left: 876px;
-top: 468px;
-
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-text-align: right
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right
 }
 button{
     position: absolute;
-width: 160px;
-height: 64px;
-left: 1210px;
-top: 578px;
-background-color: rgba(165, 122, 42, 0.571);
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    background-color: rgba(165, 122, 42, 0.571);
 }
 h2{
     position: absolute;
@@ -66,5 +65,92 @@ width: 344.81px;
 height: 165.24px;
 left: 867px;
 top: 1412.76px;
+}
+h4{
+ /* position: absolute;
+width: 179px;
+height: 47px;
+left: 711px;
+top: 1792.3px; */
+
+font-family: 'Work Sans';
+ font-style: normal; 
+font-weight: 700;
+font-size: 40px;
+line-height: 47px; 
+}
+.skill-container{
+    display: flex;
+    gap: 250px;
+    
+}
+.skill-title{
+    position: initial;
+    width: 270px;
+    height: 35px;
+    left: 230px;
+    top: 2012.26px
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Work Sans';
+    font-style:bold;
+    line-height: 35px;
+    text-align: center;
+}
+.skill-description{
+    position: static;
+    width: 177px;
+    height: 29px;
+    left: 277px;
+top: 2063.26px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+}
+.watch{
+    position: absolute;
+width: 1140px;
+height: 300px;
+left: 230px;
+top: 2222.26px;
+
+background-color: bisque;
+border-radius: 8px;
+
+}
+.contact{
+    /* display: flex;
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2782.26px; */
+    position: absolute;
+width: 325px;
+height: 204px;
+}
+.future{
+position: static;
+    width: 485px;
+height: 317px;
+left: 80%;
+
+/* left: 230px; */
+/* top: 2782.26px; */
+
+}
+.email{
+    position: static;
+    right: 70%;
+
+    width: 325px;
+height: 204px;
+/* right: 70%; */
+/* left: 1046px; */
+
 
 }
